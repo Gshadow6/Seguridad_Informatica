@@ -20,17 +20,18 @@ Este programa es un keylogger desarrollado para registrar las teclas presionadas
    - Permisos de administrador para acceder a dispositivos de entrada (teclado).
 
 2. **Compilación:**
+
    `gcc -o keylogger keylogger.c`
 
-3. **Ejecución:**
+4. **Ejecución:**
 Ejecuta el keylogger con permisos de superusuario para poder acceder al dispositivo del teclado:
   `sudo ./keylogger`
 
-4. **Salida:**
+5. **Salida:**
 Las teclas presionadas se registran en el archivo de log especificado en LOGFILEPATH:
   `/home/kali/SeguridadInformatica/KeyLogger/keylogger.txt`
 
-5. **Detención:**
+6. **Detención:**
   Para detener el keylogger, presiona Ctrl + C en la terminal donde se está ejecutando el programa.
 
 * * *
