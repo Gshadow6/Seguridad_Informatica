@@ -20,7 +20,6 @@ Este programa es un keylogger desarrollado para registrar las teclas presionadas
    - Permisos de administrador para acceder a dispositivos de entrada (teclado).
 
 2. **Compilación:**
-
    `gcc -o keylogger keylogger.c`
 
 4. **Ejecución:**
